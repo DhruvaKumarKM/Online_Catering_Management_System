@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 13, 2017, 4:05:59 PM
+    Author     : karthik-pc
+*/
+
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("http://static.wixstatic.com/media/a0de87_7c901aebcc4d4d4f8990b820ae541748.jpg_srz_1200_750_85_22_0.50_1.20_0.00_jpg_srz");
+    min-height: 90%;
+}
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/64208/pexels-photo-64208.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    min-height: 120%;
+     
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+
+li a {
+   display: block;
+    color: white;
+    text-align: center;
+    padding: 26px 28px;
+    text-decoration: none;
+    font-size: 28px;    
+}
+li a:hover {
+    background-color: greenyellow;
+}
+#clickButton{
+   display: block;
+    font-size: 50px;
+    color: white;
+    background-color:black;
+    position: absolute;
+    left: 40%;
+    top:50%;         
+}
+#title{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: aqua;
+    position:absolute;
+    left: 42%;
+    font-size: 60px;
+    top:-2%;
+     
+}
+#registerSet{
+   font-size: 30px;
+             font-weight: bold;
+          
+             position: absolute;
+          top: 260%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          font-family:  'FranchiseRegular','Arial Narrow',Arial,sans-serif;  
+}
+        
+               #settingLogin{
+             font-size: 30px;
+             font-weight: bold;
+          
+             position: absolute;
+          top: 260%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          font-family:  'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+             
+         }
+         
+         #contactInfo{
+           font-size: 30px;
+             font-weight: bold;
+          
+             position: absolute;
+          top: 60%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          font-family:  'FranchiseRegular','Arial Narrow',Arial,sans-serif;  
+         } 
+
